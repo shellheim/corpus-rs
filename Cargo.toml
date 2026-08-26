@@ -1,0 +1,13 @@
+[package]
+name = "corpus-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+quick-xml = "0.37"
+regex = "1"
+unicode-normalization = "0.1"
+ctrlc = "3.5.2"
+owo-colors = "4.3.0"
